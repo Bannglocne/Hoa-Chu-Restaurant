@@ -1,0 +1,61 @@
+.blog-section {
+    text-align: center;
+    padding: 80px 5%;
+    background: #F9F9F7;
+}
+
+.blog-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blog-description {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.blog-card {
+    display: block;
+    text-decoration: none; /* Xóa gạch chân mặc định của thẻ a */
+    color: inherit; /* Giữ nguyên màu chữ */
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 15px;
+    text-align: left;
+}
+
+.blog-date {
+    font-size: 12px;
+    color: #777;
+}
+
+.blog-content h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
