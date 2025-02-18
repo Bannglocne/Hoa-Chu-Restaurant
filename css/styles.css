@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Playfair Display";
 }
 
 header {
@@ -23,7 +23,6 @@ header {
 .logo img {
     width: 50px;
     height: 50px;
-    background: #ddd; /* Placeholder color */
 }
 
 .logo h1 {
@@ -31,11 +30,6 @@ header {
     color: #333;
 }
 
-.logo h6 {
-    font-size: 0.9rem;
-    color: #666;
-    font-weight: normal;
-}
 
 nav ul {
     display: flex;
@@ -43,15 +37,20 @@ nav ul {
     list-style: none;
 }
 
+nav li {
+    padding: 10px 14px;
+    border-radius: 34px;
+}
+
+nav li:hover{
+    background: #AD343E;
+}
+
 nav a {
     text-decoration: none;
     color: #333;
     font-weight: 500;
     transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #39b54a;
 }
 
 main {
