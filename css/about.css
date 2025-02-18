@@ -1,18 +1,20 @@
-/* about.css */
-.about-header {
+.container {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.team-grid {
+.team {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
     padding: 20px;
 }
 
 .member {
     text-align: center;
+    padding: 20px 10px;
+    border: 2px solid #666;
+    border-radius: 25px;
 }
 
 .member img {
@@ -33,4 +35,52 @@
     line-height: 1.6;
     max-width: 300px;
     margin: 0 auto;
+}
+
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+}
+
+.about-image img {
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+}
+
+.about-content {
+    max-width: 500px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.break {
+    margin: 20px;
+    color: var(--Neutral-07, #2C2F24);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px;
 }

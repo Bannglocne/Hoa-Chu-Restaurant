@@ -2,86 +2,74 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple House - About Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple House</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/fav.svg">
 </head>
 
 <body>
     <div class="container">
         <header>
             <div class="logo">
-                <img src="/img/logo.svg" alt="Logo">
+                <img src="/img/fav.svg" alt="Logo">
                 <div>
-                    <h1>Quán Việt</h1>
-                    <h6>mang hồn cốt dân tộc</h6>
+                    <h1>Simple House</h1>
                 </div>
             </div>
-
+    
             <nav>
                 <ul>
                     <li><a href="/html/index.html">Home</a></li>
                     <li><a href="#">About</a></li>
+                    <li><a href="/html/menu.html">Menu</a></li>
+                    <li><a href="/html/pages.html">Pages</a></li>
                     <li><a href="/html/contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <header class="about-header">
-                <h2>About Simple House</h2>
-                <p>This is about page of simple house template. You can modify and use this HTML template for your website. Total 3 HTML pages included in this template. Header image has a parallax effect.</p>
-            </header>
+            <section class="about-section">
+                <div class="about-image">
+                    <img src="/img/about.png" alt="Healthy Food">
+                </div>
+                <div class="about-content">
+                    <h2>We provide healthy food for your family.</h2>
+                    <p>
+                        Our story began with a vision to create a unique dining experience that merges fine dining, 
+                        exceptional service, and a vibrant ambiance. Rooted in the city's rich culinary culture, 
+                        we aim to honor our local roots while infusing a global palate.
+                    </p>
+                    <p>
+                        At place, we believe that dining is not just about food, but also about the overall experience. 
+                        Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.
+                    </p>
+                </div>
+            </section>
+            
+            <br>
+            <hr>
+            <h2 class="break">Thành viên sáng lập</h2>
 
-            <div class="team-grid">
-                <!-- Member 1 -->
+            <section class="team">
+                <!-- Lộc -->
                 <article class="member">
                     <figure>
-                        <img src="/img/jennifer.jpg" alt="Jennifer">
+                        <img src="/img/founder/loc.jpg" alt="Loc">
                         <figcaption>
-                            <h4>Jennifer Soft</h4>
-                            <p class="position">Founder and CEO</p>
-                            <p class="bio">Vivamus cursus leo nec sem feugiat sagittis. Duis ut feugiat odio, sit amet accumsan odio.</p>
+                            <h4>Nguyễn Xuân Lộc</h4>
+                            <p class="position">Chủ tịch hội đồng quản trị</p>
+                            <p class="bio">Đã từng có kinh nghiệm, tới khi có ý tưởng khởi nghiệp thì lụt nghề.</p>
                         </figcaption>
                     </figure>
                 </article>
-
-                <!-- Member 2 -->
-                <article class="member">
-                    <figure>
-                        <img src="/img/daisy.jpg" alt="Daisy">
-                        <figcaption>
-                            <h4>Daisy Walker</h4>
-                            <p class="position">Executive Chef</p>
-                            <p class="bio">Praesent non vulputate elit. Orci varius natoque et magnis dis parturient, nascetur ridiculus mus.</p>
-                        </figcaption>
-                    </figure>
-                </article>
-
-                <!-- Member 3 -->
-                <article class="member">
-                    <figure>
-                        <img src="/img/florence.jpg" alt="Florence">
-                        <figcaption>
-                            <h4>Florence Nelson</h4>
-                            <p class="position">Kitchen Manager</p>
-                            <p class="bio">Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.</p>
-                        </figcaption>
-                    </figure>
-                </article>
-
-                <!-- Member 4 -->
-                <article class="member">
-                    <figure>
-                        <img src="/img/valentina.jpg" alt="Valentina">
-                        <figcaption>
-                            <h4>Valentina Martin</h4>
-                            <p class="position">Culinary Director</p>
-                            <p class="bio">Praesent non vulputate elit. Orci varius natoque penatibus et magnis montes, nascetur ridiculus mus.</p>
-                        </figcaption>
-                    </figure>
-                </article>
-            </div>
+            </section>
         </main>
     </div>
 </body>
