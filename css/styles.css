@@ -58,3 +58,107 @@ main {
     margin: 0 auto;
     padding: 4rem 2rem;
 }
+
+
+
+
+/* Footer Styling */
+.footer {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+/* Footer About */
+.footer-about {
+    max-width: 300px;
+}
+
+.footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-about p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-icons a:hover {
+    color: #ff4d4d;
+}
+
+/* Footer Links */
+.footer-links {
+    max-width: 200px;
+}
+
+.footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    color: #ff4d4d;
+}
+
+/* Instagram Grid */
+.footer-instagram {
+    max-width: 200px;
+}
+
+.footer-instagram h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.insta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.insta-grid img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
