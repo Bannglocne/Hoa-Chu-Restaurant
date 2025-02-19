@@ -5,6 +5,8 @@
     font-family: "Playfair Display";
 }
 
+/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -26,7 +28,13 @@ header {
 }
 
 .logo h1 {
-    font-size: 1.8rem;
+    color: #474747;
+    font-family: "Playfair Display";
+    font-size: 42.667px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 29.333px; /* 68.75% */
+    letter-spacing: -0.4px;font-size: 1.8rem;
     color: #333;
 }
 
@@ -62,7 +70,7 @@ main {
 
 
 
-/* Footer Styling */
+/* Footer */
 .footer {
     background-color: #3a3a3a;
     color: white;
