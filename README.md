@@ -1,4 +1,4 @@
-# Trang Web Đặt Đồ Ăn Trực Tuyến
+# Nhà Hàng Hoá Chủ
 
 ## Giới thiệu
 Dự án này là một trang web đặt đồ ăn trực tuyến được xây dựng bằng **HTML** và **CSS**. Trang web gồm 5 trang chính:
